@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuberto</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="home">
+            <div id="nav">
+                <img  class="magnet" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQsAAACUCAMAAACzzPxCAAAAaVBMVEX///8AAAD4+PidnZ2pqan7+/uRkZGkpKTj4+Nvb2/y8vJaWlpWVlZSUlIaGhoTExOXl5fq6uqFhYUzMzNFRUWvr6/Ozs7W1tYrKyvGxsYKCgrd3d13d3dmZmZNTU2Li4siIiI9PT24uLjEpDTbAAAIgElEQVR4nO2a6ZaDqhJGE+ehY6JxjJqo7/+Q16gFxSAZTt8+66xV+5/KUHxCAQWHA0EQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBPEejb3xJ7WVXbbg/Ultn+IdzwvHP6nNOa7Uf1Lbp3ibdX+rxfVPavsU0oJDWnBICw5pwSEtOKQFh7TgkBYc0oKjaGFFUWS9k3NOmEbuZ7V9pMXTkg/Kj9qyKYpiKgPJfCsFdDUsrDkELaKqKS5dl9lTqeQTScvJzrow8+eqtY2IREnd9YFr4WLU8q12tiTrnuW/sGSjcrKfZCl7iL1JyNN0K2EnV+RnG+vOFGkRFNkIT+fQL/f/SeV0NaQceltO2UAN6dqsybEvjxJrMfgXhCc3N528E5Rfz5a8ViJj6VfrnYh/tNl7ub/38OEuaWH3Z1zeMX9U+oqDy/0opszEvnGB9/PrwO9+hueDg7WQECuKijCRym+NSriyQbMaPRfQh9LOshYhJI8FLc7hTTEx93WOY1IqnnV1cAr4Eac0yE6bwEnxrhaVpIRavkQQaoo8DizLx1qoSiwCqWI8VEufKTONFvcuZwne1qK5asvvosMO5agv9Oh/q8UOStCl30sZq1pgfd/VYtotf2eclFrtFnz3V7WQ1x27UhyPPavJ1nx9U4tdKWZ71Qlrps33cxynX9bihAswpvZgOvlei9JUvm6YWOLPGQZxrAf/UIskEctDnmCq8Ychz4X+OUwGLW7vaJGKvugsWeIfFHBVPw9/mhwPu97TP9HintlF4dgdamTdQNYgRg3v5gVZ2TgZkucU6LUY4sy7VIIWFw/xgPVFJ7ZstuQSYvmVST7l33KnXftl2vB5xXa/1iL3qzV5VKL29JupLnrXNVuHtZqMv3VcjRa117RgBNNC/cMzzcBlnVjLMv6ff+QcvNUh8iapvyVvljK+0qJHursN+yHnYn1VcTd1QSvFyGdNuKaqFl2FLDBq4fKWdahlERqZ0lzCx1QvNtPBRn6jRS/6ppKZkK0fCi6FVDMTY1K08ISkRi34yiKTLGEL4l7MAQvcYyKX1R1HtvD8QotRTtnAl3opNmU5FYfOhsnJlbToxIRGLZgpoVw+syQRbWQrYGWGsdA54Oda3NTdhw/flkHSwtNdSWmxnZElaiHvzU1aBDA9DupCAj7dCvy2HbfXD01xqBkfa6H4pdlBgO5Ln2U/R3MY6kAvXuYcroW8wzRpwYaIrW6QI8gX4rcFjE3tKozxuRaaTan7AJ3mylxIWTuBQgtWXQQtcrnvmrQAd1Trtugwm9/xS29bfpx29ypfaqErpdhKqWf/bUHG5B7/yMTQL3pBC+UPm7SAEdnpgjcglKAuLEce5jjcx1rkulKacf349CWREC3ZYxS0UP6wQQu2evF0MSRwVjkeDqCFb44EfqxFr5aBHMZTC03YQgPWQnXHBi0smCAvOktggTniFca/o0X5lRa54tPe6hdGLbC8oIXG2X6lBVjwWoufj7W4f6TFW/3iiocdaHH5JX8BdmtvyrCQUaXsjne44jJPihYsPKHWZUEP1XrCAMpv0EuY5uJfmkeKfev4PJI8tYDF5Xm853uMnVmLCmrTzOAwj/S61QJ0KMFfwPri9kvrC2adblZ/IAvYeIaFPjvdsBDCGlzVwoLaMvkLOi9o1G8HGKA5nnBZeK/Q5OCwJZmyVGdT47pVcOFR4zAqSBs+LTCtO0X2tThAGbU6ECYI3GhcIQwRca3lgjur1UGC3vA9n/y/2Z5va9K42zFccc3UQldT9yOpaItBC+Z0VA9ZQkhgVAcQyyaswXnsp5MzNB0vhIdExdwouLp1LLbvjeX1HuuC56XXRqxmaUs9L897oV8btJD2vhi+D1ZOIlgucW92aFgMULqe2tbHHCKOaOcoblysH/k92/YcM9GEgMm5eTMm41maxGYXe8XGGLSwmPUn5e/z8IG07+QnILL3Y57gJgzc9hl6ObP28NBhjvOjgBy84nOlEJeoeMBta2fLdLwJrs9f2tfzbmXQAu1hlaGGDn2EPj/x96GchTfnh88w9iZ4stXQ8Cghn4ciFFxlAzbg78YJ3JaL4l0/0CSfv+POvoUtZM06pUkLHOq2pb+MzgKvTKgUB4QVH4lPR8ImjaIo8FG0eIuc4yVz1z6vAAT2gN4xOywc8qz9Nk0DHM89nlkoPsUHl7VdpkErHK7CBGDSQjwNyqrZ/MB7rBkrfMQw+vO3oOmE5EppgXiKcB0H4XkbbI3wchjHqy7VUp7p6GmWm09xTW1KyA4PjFpEnSbr5kgvmk+Iq2ZFWmgPgsEASGVcM4+4t+mPczfueKWnOwUCEkc+N9NqcWg1m7zRfcNmbZDHMhzlcdPT0WD3hMtzi2E35SAYYO3/uZvH5DVroT0Y39xzatgMD452OxrtinFHpu//7pvktSxfe5FgJpEWxPtiPHhPe6GF7mh82H5htRsxSrSXQRbj9X8yFuYpCEspxcoO/GDtnG/nSre0Cn1KX3MpaE+LQ6C2GLxStTNMhmJ/Y97o/qQcKiy1Xe6s28oEo648XWMqjaut3113blgPuQQ2W+n7/FgZ4zVKcXJ/Pug9y33nYpxyBj7u3BmzCnk6kdahr7XAC7cNvvDW+BPzAcjS0Cu7bnAbRv2VprSrUQ861/f9S3Gunw+wc0vqk27rDDRxvd0HSOq7I/de/7qijUQwqvC6VXdL6lAY3GVcsy3k3LIXcavN+tLr49P9FPeXnTt3h+e1uK7fIvedb456HCo7jOd0fee8ulUZTV7Y9+Gj0JRouLcppqv8sI/78DIp68nU6frn0UMceq9vNDKsKHh9O3a9ffpugR9e5v1/Yb15AZkgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgiP80/wPYEXsuc4Eh2QAAAABJRU5ErkJggg==" alt="">
+                <div id="right" class="magnet">
+                
+                    <a href="menu" class="magnet">menu</a>
+                    <i class="ri-menu-line magnet"></i>
+                </div>
+            </div>
+            <div id="homemain">
+                <h1>We Make It Happens.</h1>
+                <div id="headings">
+                    <h1 class="hover-target">Website</h1>
+                    <h1 class="hover-target">Apps</h1>
+                    <h1 class="hover-target">Branding</h1>
+                </div>
+                
+            </div>
+            <div id="homelast">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt corrupti a. Perferendis nisi quia exercitationem. Sed debitis non excepturi cumque error accusantium amet! Quaerat iusto facere voluptas odit voluptates?</p>
+            </div>
+        </div>
+         <div id="features">
+            <div id="fheading">
+                <h1>Features</h1>
+                <h1>Projects</h1>
+            </div>
+            <div id="featuredImages">
+                <div id="fleft">
+                    <div class="fleftelem">
+                        <h3>Riyadh</h3>
+                        <h1>Design for all devices!happy happy</h1>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    <div class="fleftelem">
+                        <h3>Riyadh</h3>
+                        <h1>Design for all devices!happy happy</h1>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    <div class="fleftelem">
+                        <h3>Riyadh</h3>
+                        <h1>Design for all devices!happy happy</h1>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    <div class="fleftelem last">
+                        <h3>Riyadh</h3>
+                        <h1>Design for all devices!happy happy</h1>
+                        <h4>Responsive Design</h4>
+                    </div>
+                    
+                </div>
+                <div id="fright">
+                    <div id="images">
+                        <img src="https://images.unsplash.com/photo-1707879487614-72b421e4393f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <img src="https://images.unsplash.com/photo-1694337596156-ffee96affe24?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <img src="https://images.unsplash.com/photo-1706716616480-36cf333d55b5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <img src="https://images.unsplash.com/photo-1707733005801-13548a5f36ea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="btnBox">
+                <button class="magnet">View All Projects</button>
+            </div>
+        </div>
+        <!-- end of features -->
+        <div id="dev">
+            <h1>Development and design resources</h1>
+            <p>We regularly release design courses, offer advice to newbie designers, walk you through creating awesome effects, and share source files.</p>
+        </div>
+        <div id="slides">
+            <div class="slide">
+                <div id="image">
+                    <img src="https://cdn.cuberto.com/cb/upload/480b30071a8533b278c30dd7d9133f09.png" alt="'">
+                </div>
+                <div id="tag" class="magnet">Design Product</div>
+                <div id="content"><h4>How to make epic website// Frontend Devlopment</h4></div>
+
+            </div>
+            <div class="slide">
+                <div id="image"><img src="https://cdn.cuberto.com/cb/upload/480b30071a8533b278c30dd7d9133f09.png" alt="'"></div>
+                <div id="tag" class="magnet">Design Product</div>
+                <div id="content"><h4>How to make epic website// Frontend Devlopment</h4></div>
+
+            </div>
+            <div class="slide">
+                <div id="image"><img src="https://cdn.cuberto.com/cb/upload/480b30071a8533b278c30dd7d9133f09.png" alt="'"></div>
+                <div id="tag" class="magnet">Design Product</div>
+                <div id="content"><h4>How to make epic website// Frontend Devlopment</h4></div>
+                
+            </div>
+            
+        </div>
+        <div id="btnBox">
+            <button class="magnet">View All Projects</button>
+        </div>
+    </div>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
